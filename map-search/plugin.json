@@ -1,17 +1,17 @@
 {
-	"pluginName": "地图",
+	"pluginName": "地图搜索",
 	"description": "地图搜索",
 	"homepage": "",
 	"author": "zhangx",
 	"main": "index.html",
 	"logo": "logo.png",
-	"version": "0.0.1",
-	"preload":"preload.js",
+	"version": "1.0.0",
+	"preload": "preload.js",
 	"features": [
-	    {
+		{
 			"code": "search",
 			"explain": "地图搜索",
-	        "cmds":[
+			"cmds": [
 				{
 					"type": "over",
 					"label": "地图搜索"

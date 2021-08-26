@@ -1,4 +1,6 @@
-const { shell } = require('electron');
+const {
+    shell
+} = require('electron');
 
 webopen = url => {
     shell.openExternal(url);
